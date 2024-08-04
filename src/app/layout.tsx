@@ -19,14 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-[100dvh] flex flex-col">
-          <MaxWidthWrapper className="flex-1">
-            <main className="w-full flex flex-col">{children}</main>
-          </MaxWidthWrapper>
-          <MaxWidthWrapper>
-            <Footer />
-          </MaxWidthWrapper>
-        </div>
+        <MaxWidthWrapper className="min-h-[100dvh] flex flex-col">
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </MaxWidthWrapper>
       </body>
     </html>
   );

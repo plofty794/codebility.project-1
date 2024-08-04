@@ -11,7 +11,7 @@ function ProfileHeader() {
           alt="cover image"
         />
       </div>
-      <div className="mx-auto absolute inset-0 top-[126px] size-40 z-40">
+      <div className="mx-auto absolute inset-0 top-[126px] size-36 md:size-40 z-40">
         <Image
           fill
           src={"/profile-image.jpg"}
