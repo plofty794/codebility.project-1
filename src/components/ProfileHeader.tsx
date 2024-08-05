@@ -12,12 +12,14 @@ function ProfileHeader() {
         />
       </div>
       <div className="mx-auto absolute inset-0 top-[126px] size-36 md:size-40 z-40">
-        <Image
-          fill
-          src={"/profile-image.jpg"}
-          className="aspect-square object-cover rounded-full ring-4 ring-white"
-          alt="profile image"
-        />
+        <div className="relative size-36 md:size-40 ring-4 ring-white rounded-full overflow-hidden">
+          <Image
+            fill
+            src={"/profile-image.jpg"}
+            className="hover:scale-105 transition-transform aspect-square object-cover rounded-full "
+            alt="profile image"
+          />
+        </div>
       </div>
     </div>
   );
