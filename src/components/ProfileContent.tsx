@@ -21,7 +21,7 @@ function ProfileContent() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               esse fugiat a culpa eius eos ex distinctio quisquam.
             </p>
-            <div className="w-full grid grid-cols-2 h-52 gap-2">
+            <div className="w-full grid grid-cols-2 h-52 lg:h-96 gap-2">
               {Array.from({ length: 4 }).map((_, i) => (
                 <div
                   key={i}

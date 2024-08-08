@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <MaxWidthWrapper className="min-h-[100dvh] flex flex-col">
+        <MaxWidthWrapper className="min-h-[100dvh] max-w-5xl flex flex-col">
           <main className="flex-1">{children}</main>
           <Footer />
         </MaxWidthWrapper>
