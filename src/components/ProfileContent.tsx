@@ -8,7 +8,7 @@ function ProfileContent() {
         <div className="flex flex-col space-y-8">
           <div className="space-y-4 mt-6">
             <h2 className="text-zinc-800">Company Background</h2>
-            <p className="text-sm text-pretty max-w-prose -tracking-tighter text-zinc-500">
+            <p className="lg:max-w-full text-sm text-pretty max-w-prose -tracking-tighter text-zinc-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
               voluptatum voluptates veniam. Ut, laudantium culpa! Dolor ex error
               distinctio nisi hic et iusto alias obcaecati, sed dolores cumque
@@ -17,7 +17,7 @@ function ProfileContent() {
           </div>
           <div className="space-y-4 mt-6">
             <h2 className="text-zinc-800">Our Services</h2>
-            <p className="text-sm text-pretty max-w-prose -tracking-tighter text-zinc-500">
+            <p className="lg:max-w-full text-sm text-pretty max-w-prose -tracking-tighter text-zinc-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               esse fugiat a culpa eius eos ex distinctio quisquam.
             </p>
